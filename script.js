@@ -72,7 +72,7 @@ export function sortbylived() {
         let livedA = a.passed - a.year;
         let livedB = b.passed - b.year;
 
-        if (livedA > livedB) {
+        if (livedA < livedB) {
             return 1;
         } else {
             return -1;
